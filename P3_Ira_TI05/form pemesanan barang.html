@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesanan Barang</title>
+    
+    
+</head>
+<body>
+    <nav style="background-color:palevioletred; padding: 10px;">
+        <ul style="display: flex ; list-style: none;">
+        <li style="margin-right: 40px;">Home</li>
+        <li style="margin-right: 40px;">Generate link</li>
+        <li style="margin-right: 40px;">Transaction History</li>
+        <li style="margin-right: 40px;">Policy</li>
+        <li style="margin-right: 40px;">Logout</li></ul>
+</nav>
+<br>
+<img src="https://miro.medium.com/max/1000/1*_Tg5cw3bhw_PaJYOIc175w.jpeg" alt="macbook_air" width="250" height="150">
+ <input type="file" name="photo">
+<form>
+            <div class="right">
+                <div class="baris">
+                    <div class="k25">
+                        <label for="title">Title Here :</label>
+                    </div>
+                    <div class="k75">
+                        <input type="text" name="title" id="title" placeholder="MacBook Air £800">
+                    </div>
+                    <div class="right">
+                        <div class="baris">
+                            <div class="k25">
+                                <label for="desc">Description :</label>
+                            </div>
+                            <div class="k75">
+                            <textarea name="desc" id="desc" cols="40" rows="3"></textarea><br/>
+                            </div>
+    <label for="accno">Account Number :</label></div>
+    <input type="text" name="accno" id="accno" placeholder="123-456-789-0">
+    <p>Bank: <input type="text" list="bank" name="bank">
+    <datalist id="bank">
+        <option value="HSBC"></option>
+        <option value="BCA"></option>
+        <option value="BNI"></option>
+        <option value="BRI"></option>
+    </datalist>
+    <br>
+    <label for="acchl">Account Holder:</label><br/>
+    <input type="text" name="acchl" id="acchl" placeholder="Name Here">
+</div>
+<div class="baris">
+    <div class="k25">
+        <label for="trans">Transaction :</label>
+    </div>
+    <div class="k75">
+        <select id="trans" name="trans">
+            <option selected>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+    </div>
+</div>
+<div class="baris">
+    <div class="k25"></div>
+    <div class="k75">
+        <label id="caption">*if the transaction in for 3 person, choose 3 from dropdown list</label>
+    </div>
+</div>
+<div class="baris">
+    <div class="k25"></div>
+    <div class="k75">
+        <label class="cb">
+            <input type="checkbox" id="chk1" name="chk1">
+            <span style="user-select: none; color: blueviolet">Send to Mobile Phone</span>
+        </label>
+    </div>
+</div>
+<div class="baris">
+    <div class="k25"></div>
+    <div class="k75">
+        <label class="cb">
+            <input type="checkbox" id="chk2" name="chk2">
+            <span style="user-select: none; color: blueviolet">Send to Email</span>
+        </label>
+    </div>
+        <label for="stmp">Send To Mobile Phone :</label>
+    </div>
+        <input type="text" id="stmp" name="stmp" placeholder="1234567890, 1234567891">
+    </div>
+</div>
+    <div>
+        <label for="stem">Send to Email :</label>
+    </div>
+        <input type="text" id="stem" name="stem" placeholder="mfmm2g13@soton.ac.uk, fys_06@yahoo.com">
+        <br>
+        <br>
+        <button type="submit">Order</button>
+</form>
+
+</body>
+</html>
